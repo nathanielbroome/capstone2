@@ -3,7 +3,7 @@ $(window).resize(function(){
         $("#navigation").show();
     } else {        
         $(".nav-link").hide();
-        
+         $("#nav-ul").css("height", "40px");
     }
 })
 
