@@ -404,6 +404,10 @@ h1, h2, h3 {
 
 @media (max-width: 650px) {
 
+    #span {
+        color: #ffffff;
+    }
+
     .grid-items-intro-button {
         grid-column: 6/8;
         width: 100%;
