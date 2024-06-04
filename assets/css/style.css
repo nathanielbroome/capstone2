@@ -18,11 +18,8 @@ h1, h2, h3 {
     
 }
 
-
-
 #navigation { 
     display: flex;
-    flex-wrap: wrap;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     justify-content: space-around;    
     justify-content: end;          
@@ -31,7 +28,8 @@ h1, h2, h3 {
 
 #navigation > ul {  
     display: flex;  
-    list-style: none;    
+    list-style: none; 
+    background-color: #E21818;   
 }
 
 .nav-link {
@@ -176,7 +174,7 @@ h1, h2, h3 {
     align-items: center;
     grid-column: 2/12;
     grid-row: 4/5;
-    padding-top: 40px;
+    margin-top: 80px;
     width: 100%;
     color: #70c8c2;
     order: 7;
@@ -249,7 +247,7 @@ h1, h2, h3 {
 
 .grid-items-contact-heading {
     display: flex;
-    margin: 30px 0px;    
+    margin-top: 80px;    
     justify-content: center;
     align-items: center;
     grid-column: 2/12;
@@ -308,7 +306,8 @@ h1, h2, h3 {
     align-items: center;
     grid-column: 1/13;
     grid-row: 10/11;
-    padding: 20px 0;
+    margin-top: 80px;
+    padding: 20px;
     background-color: #E21818;
 }
 
@@ -339,7 +338,7 @@ h1, h2, h3 {
     justify-content: center;
     align-items: center;
     color: white;
-    padding-bottom: 20px;
+    padding: 10px 0px;
 }
 
 #hobbies {
@@ -404,6 +403,18 @@ h1, h2, h3 {
 
 @media (max-width: 650px) {
 
+    nav {
+        height: auto;
+        padding: 10px 0px; 
+        margin: 0;
+        background-color: #E21818;
+    }
+
+
+    #nav-ul {
+        height: auto;       
+    }
+
     #span {
         color: #ffffff;
     }
@@ -415,7 +426,8 @@ h1, h2, h3 {
     }
 
     #navigation  > ul{
-        display: inline-block;
+        display: block;
+        align-items: center;
         
     }
 
